@@ -28,7 +28,8 @@ jobs:
       - run:
           name: コードの取得
           command: |
-            ls -al echo '^^^That should look familiar^^^'
+            ls -al 
+            echo '^^^That should look familiar^^^'
   Run-With-Node:
     docker:
       - image: circleci/node:10-browsers
